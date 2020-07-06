@@ -72,7 +72,7 @@ span {
 }
 
 .text-about h1::before {
-  content: '';
+  content: 'Sobre mim';
   font-size: 100px;
   color: #f3f3f3;
   margin-top: -9%;
@@ -110,41 +110,16 @@ span {
   font-weight: 300;
 }
 
-.portfolio {
-  padding-right: 0 !important;
-}
-
-/* ---- .grid-item ---- */
-.grid-item {
-  float: left;
-  /* Responsive image */
-  /* clearfix mansory */
-}
-.grid-item img {
-  display: block;
-  max-width: 100%;
-  margin: 0;
-  object-fit: cover;
-}
-
-.grid-item:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-.grid-sizer,
-.grid-item {
-  box-sizing: border-box;
-}
-
 @media (min-width: 320px) {
 
-  .grid-sizer,
-  .grid-item {
-    width: 49%;
-    padding: 0.5%;
+  .logoimg {
+    display: none;
   }
+
+  .menu li {
+    display: none;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -153,17 +128,14 @@ span {
     font-size: 85px;
   }
 
-  .grid-sizer,
-  .grid-item {
-    width: 33%;
-    padding: 0.1665%;
+  .logoimg {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 
 @media (min-width: 992px) {
 
-  .grid-sizer,
-  .grid-item {
-    width: 50%;
-  }
+
 }
