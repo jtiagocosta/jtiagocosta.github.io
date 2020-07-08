@@ -112,30 +112,12 @@ span {
 
 @media (min-width: 320px) {
 
-  .logoimg {
-    display: none;
-  }
-
-  .menu li {
-    display: none;
-  }
-
 }
 
 @media (min-width: 768px) {
 
-  .text-about h1::before {
-    font-size: 85px;
-  }
-
-  .logoimg {
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
 }
 
 @media (min-width: 992px) {
-
 
 }
