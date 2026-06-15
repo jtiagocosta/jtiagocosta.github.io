@@ -1,147 +1,318 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-      <meta name="author" content="João Tiago">
-      <meta name="description" content="João Tiago">
-      <meta name="URL" content="https://joaotiagodca.github.io">
-      <meta property="og:url" content="https://joaotiagodca.github.io">
-      <meta name="keywords" content="João Tiago, jtiagodca, design, designer, loreto, loretoma, tocantins, marketing, empreendedor, tecnologia, desenvolvimento de sites, ">
-      <link rel="icon" type="image/png" href="images/logo.png" />
-      <meta property="og:image" content="https://joaotiagodca.github.io/images/logo.png">
-      <meta property="og:image:type" content="image/jpeg">
-      <meta property="og:image:width" content="800">
-      <meta property="og:image:height" content="600">
+<html lang="pt-BR">
 
-      <link rel="stylesheet" href="css/style.css">
-      <title>João Tiago</title>
-  </head>
-  <body class="site-app">
-    <div class="top-menu">
-    </div>
-    <div class="col-md-12">
-      <div class="logoimg">
-        <a href="/index.html"><img src="images/logo.png" alt="João Tiago"></a>
-      </div>
-    </div>
-    <div class="col-md-12">
-        <div class="row row-about">
-            <div class="col-md-6 mt-20 col-foto-perfil">
-              <div class="offset-1 col-md-6 mt-30 text-about div-perfil">
-                <img class="foto_perfil" src="images/foto_perfil.png">
-                <h1 class="titulo-sobre">Oi! Meu nome é <span>João Tiago</span></h1>
-              </div>
-            </div>
-            <div class="col-md-6 mt-35 text-about text-before">
-              <p class="mt-5">Olá, sou o João Tiago, bacharel em Sistemas de Informação, empreendedor, amo minha família, gosto de viajar e gosto de jogar nas horas vagas. Tenho conhecimentos em tecnologia e negócios, atuando também como programador. Estou no mercado, profissionalmente desde 2016. Procuro cada vez mais me aprimorar e adquirir novos conhecimentos.<p>
-            </div>
-            <div class="veja-mais">
-              <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>             
-            </div>
-        </div>
-    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTiago Costa | Site Pessoal</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <div class="col-md-12">
-      <div class="row">
-        <div class="col-md-8 titulo texto-centralizado">
-          <h2><strong>Empresa</strong></h2>
-          <div class="horizontal-line">
-            <div class="top"></div>
-            <div class="bottom"></div>
-          </div>
-          <div class="sobre-jtec">
-            <img class="logo-jtec" src="images/logo-jtec.jpg">
-            <div class="texto-jtec">
-              <p class="mt-5">Hoje tenho uma empresa (@jtecloreto no Instagram). Empresa de telecomunicações e informática tendo foco principal na prestação de serviços de internet. O objetivo da JTec Telecom Informática é, conectar pessoas, buscar sempre atualização tecnologica para prestar um serviço de qualidade e excelência no atendimento ao cliente, gerar empregos e sustentabilidade através de seus resultados.<p>
-            </div>
-          </div>
+    <link rel="canonical" href="https://joaotiagodca.github.io">
+    <meta property="og:url" content="https://joaotiagodca.github.io">
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+    <meta property="og:image" content="https://joaotiagodca.github.io/images/logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://joaotiagodca.github.io/images/logo.png">
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "João Tiago",
+        "url": "https://joaotiagodca.github.io"
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">João Tiago</div>
+
+
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#apoios">Apoios</a></li>
+                    <li><a href="#manifesto">Manifesto</a></li>
+                    <li><a href="#privacidade">Privacidade</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
-    </div>
-    <div class="col-md-12">
-      <div class="row row-portifolio">
-        <div class="col-md-8 titulo texto-centralizado">
-          <h2>Alguns dos meus <strong>projetos como desenvolvedor</strong></h2>
-          <div class="horizontal-line">
-            <div class="top"></div>
-            <div class="bottom"></div>
-          </div>
-          <div class="col-md-12">
-            <div class="portifolio">
-              <img class="img-portifolio" src="images/sisgestaojtec.png">
-              <span>Sistema de Gestão Financeira</span>
-              <p>Sistema para controle do fluxo de caixa, emitir carnê de pagamentos e dashboar financeiro.</p>
+
+    </header>
+
+    <section class="hero" id="sobre">
+
+        <div class="container hero-grid">
+
+            <div class="hero-image">
+                <img src="./assets/img/foto_01_hover.png" alt="Foto de Tiago" class="image normal">
+                <img src="./assets/img/foto_01.png" alt="Foto de Tiago" class="image hover">
             </div>
-          </div>
-          <div class="col-md-12">
-            <div class="portifolio">
-              <img class="img-portifolio" src="images/sisgestaojtec.png">
-              <span>Sistema de Ponto Eletrônico</span>
-              <p>Sistema de ponto eletrônico, com registro de entrada e saída dos colaboradores.</p>
+
+            <div class="hero-content">
+                <div class="hero-wrapper">
+
+                    <div class="hero-text">
+
+                        <span class="tag">
+                            Empreendedor • Tecnologia • Educação
+                        </span>
+
+                        <h1>Oi! Eu sou o Tiago.</h1>
+
+                        <p class="lead">
+                            Sou empreendedor, professor de computação e apaixonado por tecnologia.
+                            Atuo no mercado desde 2016 e busco cada vez mais construir projetos,
+                            compartilhar conhecimento e viver uma vida guiada por Deus,
+                            o que se reflete em meus propósitos e no
+                            impacto positivo que busco deixar no mundo.
+                        </p>
+
+                        <a href="#manifesto" class="button">
+                            Conheça minha visão
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/jtiagocosta/" aria-label="Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="https://br.linkedin.com/in/joao-tiago" aria-label="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="https://github.com/jtiagocosta" aria-label="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+
             </div>
-          </div>
-          <div class="col-md-12">
-            <div class="portifolio">
-              <img class="img-portifolio" src="images/sisgestaojtec.png">
-              <span>Sistema Para Delivery</span>
-              <p>Sistema dispõe de um cardápio, onde o cliente escolhe o produto e efetua o pedido para que o estabelecimento faça a entrega.</p>
-            </div>
-          </div>
-          <div class="col-md-12">
-            <div class="portifolio">
-              <img class="img-portifolio" src="images/sisgestaojtec.png">
-              <span>Sistema de Geração de Carnê</span>
-              <p>Sistema para gerar carnê de pagamentos.</p>
-            </div>
-          </div>
+
         </div>
-      </div>
-    </div>
-    <div class="col-md-12">
-      <div class="row">
-        <div class="col-md-8 titulo texto-centralizado">
-          <h2>Algumas das coisas que <strong>amo</strong> fazer.</h2>
-          <div class="horizontal-line">
-            <div class="top"></div>
-            <div class="bottom"></div>
-          </div>
-          <div class="col-md-12">
-            <div class="servicos">
-              <img class="img-servicos" src="images/dev-web.png">
-              <div class="descricao">
-                <span>Desenvolvimento Web</span>
-                <p>Sou apaixonado por desenvolvimento web, e sempre me preocupo com os resultados esperados pelo meu trabalho. Busco sempre a melhoria contínua do meu trabalho, impactando assim na melhoria dos resultados dos serviços que faço.</p>
-              </div>
+
+    </section>
+
+    <section class="section">
+
+        <div class="container narrow">
+
+            <h2>Sobre Mim</h2>
+
+            <p>
+                Olá! Que bom ter você por aqui. Meu interesse por tecnologia me levou ao bacharelado em Sistemas de
+                Informação e, em 2016, comecei como desenvolvedor web na Agência CCM. Mais tarde, fui Gestor de TI até
+                que surgiu a
+                oportunidade de empreender e me tornar sócio da <a href="https://www.instagram.com/jtec_telecom/"
+                    target="_blank">JTec Telecom</a>,
+                um provedor de internet.
+                Movido pela vontade de ensinar, passei na seleção para atuar também como professor bolsista no ensino
+                técnico de computação.
+                Nas horas vagas, sou o cara da família, dos games e do pandeiro, além de criador do site <a href="https://jtiagocosta.github.io/loreto_web/"
+                    target="_blank">Loreto Web</a>, projeto inspirado no trabalho do meu colega Pablo Resplandes para
+                registrar a história,
+                os cartões postais e a riqueza da cidade. Acima de tudo, busco viver uma vida guiada por Deus,
+                o que se reflete direto no meu propósito e no impacto positivo que quero deixar no mundo.
+            </p>
+
+            <div class="contact">
+                <div>
+                    <strong>E-mail</strong>
+                    <span>jtiagodca@gmail.com</span>
+                </div>
             </div>
-          </div>
-          <div class="col-md-12">
-            <div class="servicos">
-              <img class="img-servicos" src="images/web-mobile.png">
-              <div class="descricao">
-                <span>Web Mobile</span>
-                <p> A Web Mobile é uma oportunidade de desenvolver projetos web e sites que possam se adaptar a interface de dispositivos móveis e manter o usuário interessado em sua marca , assim trabalho em prol de desenvolver projetos que tragam retorno e envolvimento do público com sua marca, tanto em desktop quanto dispositivos móveis.</p>
-              </div>
+
+            <div class="why">
+
+                <h3>Por que criei este site?</h3>
+
+                <p>
+                    Criei este espaço para compartilhar minha trajetória,
+                    minhas ideias, as causas que apoio e os princípios que
+                    orientam minhas decisões pessoais e profissionais.
+                </p>
+
             </div>
-          </div>
+
         </div>
-      </div>
-    </div>
+
+    </section>
+
+    <section class="section section-light" id="apoios">
+
+        <div class="container">
+
+            <h2>Apoios Sociais</h2>
+
+            <p class="section-intro">
+                Acredito que a tecnologia, o conhecimento e a fé só ganham verdadeiro valor quando são colocados a
+                serviço do próximo. <br>
+                Conheça algumas causas e iniciativas que apoio.
+            </p>
+
+            <div class="cards">
+                <article class="card">
+                    <h3>Educação Inclusiva e Inovação</h3>
+                    <p>Apoio a formação técnica e a inclusão digital de jovens,
+                        acreditando que o acesso à tecnologia e à educação de qualidade é a
+                        ferramenta mais poderosa para abrir portas e transformar futuros.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Valorização da Cultura e Memória Local</h3>
+                    <p>Apoio à preservação da identidade de Loreto.
+                        O projeto Loreto Web é uma extensão dessa causa, buscando dar voz e visibilidade à nossa
+                        história, turismo e tradições.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Empreendedorismo e Desenvolvimento Regional</h3>
+                    <p>Incentivo ao comércio e aos negócios locais, acreditando que fortalecer as empresas da nossa
+                        cidade gera oportunidades e melhora a vida de todo mundo que mora aqui.</p>
+                </article>
+            </div>
+
+            <div class="help-box">
+
+                <h3>Como ajudar</h3>
+
+                <p>
+                    Caso queira apoiar alguma dessas iniciativas,
+                    entre em contato:
+                </p>
+
+                <strong>jtiagodca@gmail.com</strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="manifesto" id="manifesto">
+
+        <div class="container narrow">
+            <span class="manifesto-tag">
+                MEU MANIFESTO
+            </span>
+
+            <h2>
+                O que me move.
+            </h2>
+
+            <blockquote>
+                <div class="manifesto-content">
+                    <p>
+                        Recuso o piloto automático de uma sociedade que mede o sucesso apenas por status e riqueza.
+                        Acredito que o trabalho deve ser uma ferramenta de realização humana e que prosperidade e
+                        propósito andam juntos.
+                        Por isso, escolhi empreender, ensinar e criar projetos na minha própria região.
+                    </p>
+
+                    <p>
+                        Não vejo tecnologia como meras linhas de código, telas ou conexões de internet. Ela é um meio
+                        para conectar pessoas,
+                        preservar nossa identidade e servir ao próximo. Minha trajetória se baseia em quatro pilares:
+                    </p>
+
+                    <p>
+                        <strong>Fé em Ação</strong> <br>
+                        Acredito em uma vida totalmente guiada por Deus. Minha fé não se limita aos momentos de oração;
+                        ela se reflete no meu trabalho, na honestidade dos meus negócios e na busca diária por deixar um
+                        impacto positivo no mundo e na vida de quem cruza o meu caminho.
+                    </p>
+
+                    <p>
+                        <strong>Educação como Chave</strong> <br>
+                        Como professor, vejo na sala de aula o poder da transformação.
+                        Ensinar tecnologia é dar autonomia e mostrar aos jovens da nossa região que eles podem construir
+                        o futuro que desejarem.
+                    </p>
+
+                    <p>
+                        <strong>Orgulho e Memória de Loreto</strong> <br>
+                        Nossas raízes importam. O Loreto Web é minha forma de honrar nossa história, nossa paróquia e as
+                        belezas da nossa terra.
+                        Preservar o passado é a melhor maneira de valorizar o presente e inspirar o amanhã.
+                    </p>
+
+                    <p>
+                        <strong>Tecnologia com Propósito</strong> <br>
+                        Seja na TI, na JTec Telecom ou em projetos locais: a tecnologia precisa servir às pessoas,
+                        encurtar distâncias e melhorar a nossa comunidade.
+                    </p>
+
+                    <p>
+                        "Adquirir sabedoria é melhor do que ouro puro; escolher o entendimento vale mais que a prata."
+                        <br>
+                        — Provérbios 16:16
+                    </p>
+
+                    <span class="assinatura">João Tiago</span>
+                </div>
+            </blockquote>
+        </div>
+
+    </section>
+
+    <section class="section" id="privacidade">
+
+        <div class="container narrow">
+
+            <h2>Política de Privacidade</h2>
+
+            <p>
+                Este site não coleta dados pessoais automaticamente.
+            </p>
+
+            <p>
+                Caso você entre em contato por e-mail, suas informações serão
+                utilizadas exclusivamente para responder sua mensagem.
+            </p>
+
+            <p>
+                Não utilizamos cookies de rastreamento.
+            </p>
+
+            <p>
+                Não compartilhamos informações pessoais com terceiros.
+            </p>
+
+        </div>
+
+    </section>
+
     <footer>
-      <div class="footer">
-        <hr>
-        <span>Me conta sobre os seus projetos, </span> entre em contato comigo e vamos trocar uma ideia.
-        <br>
-        <i class="fa fa-envelope"></i><a href="mailto:jtecloreto@gmail.com">jtecloreto@gmail.com</a>
-        <br>
-        <i class="fab fa-instagram"></i><a href="https://www.instagram.com/jtecloreto/" target="_blank">@jtecloreto</a>
-        <br>
-        <span class="copyright">Copyright © João Tiago 2022</span>
-      </div>
+
+        <div class="container">
+
+            <p>
+                © 2026 João Tiago. Todos os direitos reservados.
+            </p>
+
+            <p>
+                Este site respeita os princípios da LGPD.
+            </p>
+
+        </div>
+
     </footer>
-  </body>
+
+</body>
 
 </html>
